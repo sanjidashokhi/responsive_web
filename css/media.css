@@ -1,0 +1,70 @@
+/* responsive nav_Start */
+@media (max-width: 1200px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul{
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px){
+    nav #icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(2, 12, 17, 0.77);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;   
+    }
+    nav a{
+        font-size: 20px;
+    }
+    a.active,a:hover{
+        border: none;
+        color: aqua;
+    }
+    nav ul.show{
+        left: 0;
+    }
+}
+/* responsive nav_end */
+@media (max-width: 740px){
+    .banner_text h1{
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 630px;
+    }
+    .banner_text h3{
+        text-align: center;
+        padding-top: 20px;
+        padding-right: 630px;
+    }
+    .banner_text p{
+        padding-right: 740px;
+        padding-left: 120px;
+    }
+}
+
+
+
+/* responsive Banner_start */
+
+
+
+
+/* responsive Banner_end */

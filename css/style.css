@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+   
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: Roboto;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 10, 14, 0.521);
+    top: 0;
+    left: 0;
+    position: fixed;
+    
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 0 100px;
+    line-height: 80px;
+
+}
+nav ul{
+    float: right;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: #FFF;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+a.active,a:hover{
+    border: 1px solid white; 
+    transition: .5s;
+}
+nav #icon{
+    color: #FFF;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+/* banner_part_start */
+#banner_part{
+   
+    background: url(../images/bgimgtree.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banner_overly{
+    background: rgba(0, 0, 0, 0.571);
+    padding-top: 300px;
+    padding-bottom: 250px;
+
+}
+.banner_text{
+    text-align: center;
+    color: #FFF;
+}
+.banner_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    line-height: 80px;
+   
+}
+.banner_text h3{
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Open Sans',sans-serif;
+    letter-spacing: 5px;
+    line-height: 50px;
+
+}
+.banner_text p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Open Sans',sans-serif;
+    padding-top: 5px;
+    line-height: 30px;
+   
+}
+
+
+
+
+
+
+/* banner_part_end */
